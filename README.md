@@ -37,11 +37,11 @@ ai_course_reviewer/
 ├── main.py                 # FastAPI app entry point
 ├── config.py               # Settings and configuration
 ├── requirements.txt        # Python dependencies
-├── .env                    # API keys (create this)
+├── .env                    # Secret keys
 ├── .gitignore              # Git ignore rules
 │
 ├── endpoints/
-│   └── review.py           # API routes (upload, start, status, report)
+│   └── review.py           # API routes 
 │
 └── src/
     ├── schemas.py          # Pydantic data models
@@ -130,7 +130,6 @@ ai_course_reviewer/
 | GET | `/api/report/{id}` | Get final report |
 
 ---
-
 ## Setup
 
 ```bash
