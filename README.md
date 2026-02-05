@@ -147,20 +147,6 @@ echo "OPENAI_API_KEY=sk-your-key" > .env
 python main.py
 ```
 
----
-
-## Environment Variables
-
-```env
-# Required for AI features
-OPENAI_API_KEY=sk-your-key-here
-
-# Optional
-LLM_PROVIDER=openai
-OPENAI_MODEL=gpt-4o-mini
-ENABLE_AI_AGENTS=true
-HEADLESS=true
-```
 
 ---
 
